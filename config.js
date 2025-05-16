@@ -31,11 +31,11 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~GAZBnLzJ#4N78IiRigUZxTgvZ4os76GerBRV9nNdxrjHvfEjS_9Y",
+    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~zYwGiKiC#RYqVkzeaHv_VwjxSzXYmu3RmpJjY2R9Ns5dpDLERnrw",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
-    READ_MESSAGE: process.env.READ_MESSAGE || "true", // Added auto-read configuration
+    READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
     MODE: process.env.MODE || "private",
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
