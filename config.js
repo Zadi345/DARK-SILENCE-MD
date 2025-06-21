@@ -31,7 +31,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~zNE3gabY#d2PLjDilepWfJggXmwKyMbvyXSo8_d8Ofp4IC-37CY0",
+    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~eUVVlYTL#5m-0jrVHtRYUG8q7k-95LrL7ugaA8SMu0CMsmrAsJok",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
@@ -44,15 +44,15 @@ module.exports = {
     ALIVE_MSG: process.env.ALIVE_MSG || "HII DEAR IM ONLINE I'M DARK-SILENCE-MD WHATSAPP BOT 😊♻️",
     ANTI_LINK: process.env.ANTI_LINK || "true",
     ANTI_CALL: process.env.ANTI_CALL || "true",
-    BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "true",
-    ANTI_BAD: process.env.ANTI_BAD || "true",
+    BAD_NUMBER_BLOCKER: process.env.BAD_NUMBER_BLOCKER || "false",
+    ANTI_BAD: process.env.ANTI_BAD || "false",
     PREFIX: process.env.PREFIX || ".",
     FAKE_RECORDING: process.env.FAKE_RECORDING || "true",
     FAKE_TYPING: process.env.FAKE_TYPING || "true",
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
     CURRENT_STATUS: process.env.CURRENT_STATUS || "true",
     AUTO_REACT: process.env.AUTO_REACT || "false",
-    HEART_REACT: process.env.HEART_REACT || "true",
+    HEART_REACT: process.env.HEART_REACT || "false",
     OWNER_NUMBER: process.env.OWNER_NUMBER || "260774415852",
     OWNER_NAME: process.env.OWNER_NAME || "🇲🇽El_mal",
     READ_CMD: process.env.READ_CMD || "true",
