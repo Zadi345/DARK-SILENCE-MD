@@ -31,12 +31,12 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~Xd8WxZRC#VTB7F_GI4PF6qrHRYRy_jPttNAgwb9c_KXRy-1VGR2k",
+    SESSION_ID: process.env.SESSION_ID || "DARK-SILENCE-MD~GQVg3AbQ#kiGA9ZR7y3MrLLuv-pPGBI-jQpj3eSH9DWpfrS3sD0",
     CAPTION: process.env.CAPTION || "POWERED BY SILENTLOVER432",
     AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
     AUTO_REPLY_STATUS: process.env.AUTO_REPLY_STATUS || "false",
     READ_MESSAGE: process.env.READ_MESSAGE || "false", // Added auto-read configuration
-    MODE: process.env.MODE || "public",
+    MODE: process.env.MODE || "private",
     AUTO_VOICE: process.env.AUTO_VOICE || "true",
     AUTO_STICKER: process.env.AUTO_STICKER || "false",
     AUTO_REPLY: process.env.AUTO_REPLY || "false",
